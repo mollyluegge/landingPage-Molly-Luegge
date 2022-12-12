@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!---style sheets--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="landingPage.css" rel="stylesheet">
+
+    <title>Landing Page</title>
+</head>
+<body>
+
+<div class=”container-fluid”>
+<!---Header and NavBar--->
+	<div class=”header col-sm”>
+
+        <h1>Kiki's Delivery Service <i class="fa-solid fa-broom"></i></h1>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Jiji's Corner</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Deliveries</a></li>
+                      <li><a class="dropdown-item" href="#">Pricing</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Customer Reviews</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex p-2" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-secondary text-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    
+	</div>
+      <!---Body Info--->
+		<div class=”main col-sm”>
+
+          <div class="border border-dark border-3 mb-2">
+            <img src="https://th.bing.com/th/id/R.75038ebe8aab640f578d3fbc9f980eb8?rik=u00HfeNfXZL98A&riu=http%3a%2f%2fwww.tokkoro.com%2fpicsup%2f2896644-studio-ghibli-anime-anime-girls-kikis-delivery-service___anime-wallpapers.jpg&ehk=5M6%2f0jf3wlwdRuMdN%2flAHwy86TOZ0tBQ8XSFRvCFdX8%3d&risl=&pid=ImgRaw&r=0" class="img-fluid" alt="...">
+          </div>
+
+        <!---Info cards--->
+        <div class="container-fluid text-center p-2">
+      
+          <h4 class="text-light p-2 mb-3">Kiki is a young witch that has a passion for helping people through her delivery service.</h4>
+
+          <div class="row justify-content-center">
+
+            <div class="col-3">
+              <div class="card mx-5" style="width: 18rem;">
+                <img src="https://i.pinimg.com/originals/18/71/ca/1871ca7545eba3500275926ddaf56a01.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Where do we deliver?</h5>
+                  <a href="#" class="btn btn-primary"><i class="fa-solid fa-location-dot"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card mx-5" style="width: 18rem;">
+                <img src="https://78.media.tumblr.com/252ce0c6db87f19ac750e496c8cfd72c/tumblr_n5fojp5TyD1rll7syo2_250.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Need a delivery?</h5>
+                  <a href="#" class="btn btn-primary"><i class="fa-solid fa-box"></i></a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+          <!---Customer review--->
+            <div class="container-fluid py-3">
+            <div class="card mx-5 mt-3">
+              <div class="card-header">
+                Customer Review
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Such a sweet girl!</h5>
+                <p class="card-text"> Kiki went above and beyond with this delivery! Even helped out around my home with some chores and kept me company! Rain or shine she will deliver!</p>
+                <a href="#" class="btn btn-primary">Read more reviews</a>
+              </div>
+            </div>
+            </div>
+
+            <!---Jijis Corner--->
+
+          </div> 
+         </div>
+
+
+   <!---Footer Info--->
+<div class=”footer col-sm”>
+    <div class="container-fluid text-light p-3">
+
+     <h3> Contact Kiki!</h3>
+
+     <div class="row">
+      <div class="col mb-3">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col mb-3">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+     </div>
+
+     <div class= "mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+     </div>
+
+    <h6>website made by mlgraphicdesign</h6>
+</div>
+
+</div>
+
+   <script src="https://kit.fontawesome.com/83333b11a6.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+body{
+    background-color:lavender;
+}
+.container-fluid{
+    background-color:darkslateblue;
+}
+h1{
+    font-family:cursive;
+    color:maroon;
+}
